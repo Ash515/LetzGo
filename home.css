@@ -17,29 +17,60 @@ body{
     place-items: center;
 }
 .container{
+    display:grid;
+    grid:
+    'search-container chat-title' 71px
+    'conversation-list chat-message-list' 1fr
+    'new-message-container chat-form'78px
+    /275px 1fr;
+
     min-width:800px;
     max-width: 1000px;
     height:95vh;
     width:100px;
-    background:#fff;
+    background:pink;
     border-radius: 10px;
 }
 .search-container,
 .conversation-list,
 .new-message-container{
-    background:"green";
+    background:green;
 
 }
 .search-container{
+    grid-area:search-container;
     border-radius: 10px 0 0 0;
     box-shadow: 0 1px 3px -1px rgba(0,0,0,0.75);
     z-index:1;
 }
+.conversation-list{
+    grid-area:conversation-list;
+}
+
 .new-message-container{
+    grid-area:new-message-container;
     border-top: ip solid black;
     border-radius:0 0 0 10 px;
 }
 .chat-title,
 .chat-form{
-    background: white;
+    background: #eee;
 }
+.chat-title{
+    grid-area: chat-title;
+    color:#0048AA;
+    font-weight:bold;
+    font-size:2.0rem;
+    border:0 10px 0 0;
+    box-shadow: red;
+}
+.chat-message-list{
+    grid-area: chat-message-list;
+}
+.chat-form{
+    grid-area: chat-form;
+    border-radius:0 0 10px 0;
+    border-top: 1px yellow;
+}
+
+
