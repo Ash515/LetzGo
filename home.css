@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin-bottom: 0px;
+    margin-top: 0px;
+margin-right: 0px;
+margin-left:0px;
+ }
+.chatnames{
+    display:block;
+    background-color:rgb(185, 108, 180);
+    padding-top:0px;
+    padding-bottom:1000px;
+    margin-right: 1300px;
+    margin-left: 0px;
+    
+}
+
+
+.sidebar {
+    overflow-y: scroll;
+    width: 260px;
+    height: 100vh;
+    background: -moz-linear-gradient(125deg, rgba(39,107,130,1) 0%, rgba(49,84,129,1) 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgb(49 84 129)), color-stop(100%, rgb(39 107 130)));
+    background: -webkit-linear-gradient(125deg, rgb(39 107 130) 0%, rgb(49 84 129) 100%);
+    background: -o-linear-gradient(125deg, rgba(39,107,130,1) 0%, rgba(49,84,129,1) 100%);
+    background: -ms-linear-gradient(125deg, rgba(39,107,130,1) 0%, rgba(49,
+}
+
+  
