@@ -39,3 +39,7 @@ body{
     border-top: ip solid black;
     border-radius:0 0 0 10 px;
 }
+.chat-title,
+.chat-form{
+    background: white;
+}
