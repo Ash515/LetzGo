@@ -17,22 +17,26 @@ body{
 }
 .button{
     display:block;
-    background-color: rgba(39, 9, 43, 0.685);
+    background-color: rgba(211, 136, 221, 0.685);
     width:100px;
     height:50px;
     color:white;
+    font-size: 20px;
 }
 .frontpage{
     text-align:center;
     display:block;
-    background-color: rgb(119, 119, 209);
+    background-color: rgb(46, 7, 10);
     margin-top:200px;
     margin-bottom: 200px;
     margin-right:500px;
     margin-left:500px;
     padding-top: 20px;
     padding-bottom:30px;
+    padding-right: 50px;
+    padding-left: 50px;
 }
-body {    display: block;
+body {    display: flex;
+    justify-content: center;
     margin: 8px;
 }

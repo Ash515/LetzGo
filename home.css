@@ -1,30 +1,41 @@
-* {
+*{
+    margin:0;
+    padding:0;
     box-sizing: border-box;
-    margin-bottom: 0px;
-    margin-top: 0px;
-margin-right: 0px;
-margin-left:0px;
- }
-.chatnames{
-    display:block;
-    background-color:rgb(185, 108, 180);
-    padding-top:0px;
-    padding-bottom:1000px;
-    margin-right: 1300px;
-    margin-left: 0px;
-    
 }
-
-
-.sidebar {
-    overflow-y: scroll;
-    width: 260px;
-    height: 100vh;
-    background: -moz-linear-gradient(125deg, rgba(39,107,130,1) 0%, rgba(49,84,129,1) 100%);
-    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgb(49 84 129)), color-stop(100%, rgb(39 107 130)));
-    background: -webkit-linear-gradient(125deg, rgb(39 107 130) 0%, rgb(49 84 129) 100%);
-    background: -o-linear-gradient(125deg, rgba(39,107,130,1) 0%, rgba(49,84,129,1) 100%);
-    background: -ms-linear-gradient(125deg, rgba(39,107,130,1) 0%, rgba(49,
+html,
+body{
+    height:100%;
 }
+html{
+    font-family: 'Bree Serif', serif;
+    background-image: url("wallpaper.jpg");
+    font-size:10px ;
+}
+body{
+    display: grid;
+    place-items: center;
+}
+.container{
+    min-width:800px;
+    max-width: 1000px;
+    height:95vh;
+    width:100px;
+    background:#fff;
+    border-radius: 10px;
+}
+.search-container,
+.conversation-list,
+.new-message-container{
+    background:"green";
 
-  
+}
+.search-container{
+    border-radius: 10px 0 0 0;
+    box-shadow: 0 1px 3px -1px rgba(0,0,0,0.75);
+    z-index:1;
+}
+.new-message-container{
+    border-top: ip solid black;
+    border-radius:0 0 0 10 px;
+}
