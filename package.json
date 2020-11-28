@@ -1,0 +1,28 @@
+{
+  "name": "lets-go",
+  "version": "1.0.0",
+  "description": "Real time chat application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev":"nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ash515/Lets-Go.git"
+  },
+  "author": "Ashwin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ash515/Lets-Go/issues"
+  },
+  "homepage": "https://github.com/Ash515/Lets-Go#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
