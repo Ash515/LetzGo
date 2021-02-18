@@ -1,5 +1,5 @@
 # Lets-Go
-Letz Go is a Chat application maded with socket programming
+Letz Go is a Chat application made with socket programming
 
 # 🚀&nbsp;Installation 
 1. Clone the repository 
