@@ -1,10 +1,11 @@
-# Lets-Go
+# Lets-Go ❤
 Letz Go is a Chat application made with socket programming
 
 # 🚀&nbsp;Installation 
+
 1. Clone the repository 
 ```
-https://github.com/Ash515/Lets-Go.git
+https://github.com/Ash515/LetzGo.git
 ```
 2. Check the status of your file 
 ```
