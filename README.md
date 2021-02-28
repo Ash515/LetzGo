@@ -1,4 +1,4 @@
-# Lets-Go ❤
+# LetZGo ❤
 Letz Go is a Chat application made with socket programming
 
 # 🚀&nbsp;Installation 
