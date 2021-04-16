@@ -1,5 +1,8 @@
 # LetZGo ❤
-Letz Go is a Chat application made with socket programming
+Letz Go is a room chat application made with socket programming
+
+# Image Results
+<img src="Image Output/OP1.png" width="450px">     <img src="Image Output/OP2.png" width="450px">
 
 # 🚀&nbsp;Installation 
 
